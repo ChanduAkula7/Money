@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   
+}
+.extra-container{
+    height: 200vh;
+    max-width: 300px;
+    /* border: 2px solid green; */
+    display: flex;
+    
+}
+.main-container-sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color:lightblue; */
+    padding: 10px;
+    /* border: 5px solid pink; */
+}
+
+.container11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 16vw;
+    max-height: 100vh; */
+    /* border: 2px solid red; */
+}
+.websitelogo{
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+}
+.log-out{
+    display: flex;
+    /* border: 2px solid red; */
+
+}
+.each-link1{
+    list-style: none;
+    margin-bottom: 20px;
+    
+
+}
+.each-link{
+    display: flex;
+    /* border: 2px solid yellow; */
+    list-style: none;
+    margin-top: 20px;
+    width: 150px;
+    /* border: 2px solid red; */
+    align-items: center;
+    /* color: red; */
+}
+.path-Link{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+}
+.sidebar-icon{
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    color:#415a77;
+}
+.Log-out{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    align-items: center;
+    /* border: 2px solid red; */
+    font-size: 12px;
+    /* margin-top: 300%; */
+    padding: 5px;
+
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+
+}
+.each-link2{
+    display: flex;
+    margin-left: 10px;
+}
+.line{
+    color: black;
+}
+.user-pic{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+}
+li{
+    position: relative;
+}
+
+.t1::after{
+    content: '';
+    width: 10px;
+    height: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    top:0;
+    left: -40px;
+    opacity: 0;
+    border-top-left-radius: 2px;
+    transition: all 0.2s;
+    
+}
+.t1:hover::after{
+    opacity: 1;
+}
+
+.sidebar-icon::after{
+    color: blue;
+    background-color: red;
+    opacity: 0;
+}
+.sidebar-icon:hover::after{
+    opacity: 1;
+
+}
